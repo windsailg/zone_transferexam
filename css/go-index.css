@@ -1,0 +1,1323 @@
+/* reset */
+body {
+	margin: 0;
+	padding: 0px;
+	/* overflow: hidden;*/
+}
+
+/*隱藏卷軸並可捲動*/
+/*
+::-webkit-scrollbar{
+    display: none;
+  }
+*/
+
+#go-index {
+	font-family: 'cwTeXYen', '微軟正黑體', 'Arial', sans-serif;
+	float: left;
+	display: block;
+	z-index: 10;
+	width: 100%;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+/*覆蓋slider連結區塊*/
+#go-index .sliderbox {
+	position: relative;
+	display: block;
+	background-color: #414141;
+	height: 500px;
+	margin: 0 0 0px 0;
+}
+#go-index .menubanner-slider {
+	width: 1920px;
+}
+#go-index .sliderbox .swiper-container-horizontal > .swiper-pagination-bullets {
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+}
+#go-index .sliderbox .swiper-pagination-bullet {
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	border-radius: 10px;
+	background: #191919;
+	/*    border:1px solid rgba(214, 214, 214, 0.81) ;*/
+	margin: 0 5px;
+	opacity: 0.6;
+	z-index: -4;
+	/*    box-shadow: 1px 1px 1px #000000;*/
+}
+#go-index .sliderbox .swiper-pagination-white .swiper-pagination-bullet-active {
+	background: #ffffff;
+	opacity: 1;
+}
+
+#go-index .sliderbox .swiper-button-prev,
+#go-index .sliderbox .swiper-button-next {
+	position: absolute;
+	top: 53%;
+	width: 30px;
+	height: 25px;
+	margin-top: -22px;
+	z-index: 10;
+	cursor: pointer;
+	background-size: 27px 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: none;
+}
+
+/*
+    #go-index  .menubanner-slider{
+        background-color:#414141;
+    }
+*/
+#go-index .sliderbox .bx-wrapper img {
+	max-width: 200%;
+	max-height: 100%;
+	display: block;
+}
+#go-index .menu_block {
+	width: 200px;
+	height: 500px;
+	display: block;
+	position: absolute;
+	z-index: 11;
+	left: 300px;
+	box-shadow: 8px 10px 25px rgba(120, 120, 120, .2);
+	background-color: #ffffff;
+}
+#go-index .menu_block ul {
+	padding: 0 0 0 10px;
+	box-sizing: border-box;
+	margin: 18px 0 0;
+	list-style: none;
+}
+#go-index .menu_block ul i {
+	display: inline-block;
+	width: 24px;
+	font-size: 15px;
+	margin: 0 auto 0;
+	padding: 0 0 0 4px;
+	color: rgb(156, 132, 106);
+	line-height: 30px;
+}
+#go-index .menu_block .left_li {
+	letter-spacing: -1px;
+	font-weight: 600;
+	font-size: 17px;
+	white-space: nowrap;
+	padding: 0 0 0 5px;
+	height: 53px;
+	margin: 1px 0;
+	width: 152px;
+	line-height: 20px;
+	color: #525252;
+}
+#go-index .list_arrow {
+	float: right;
+	right: -2px;
+	position: absolute;
+}
+#go-index .menu_block_hr {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	bottom: 4px;
+	height: 1px;
+	width: 93%;
+	background-color: rgba(88, 43, 30, 0.6);
+	opacity: .7;
+	display: none;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	overflow: hidden;
+	border-style: solid;
+	border: 0px solid;
+	border-bottom: 1px;
+	border-color: aqua;
+}
+#go-index .menu_block .list li::after {
+	content: '';
+}
+#go-index .menu_block .list li .left_li span {
+	position: relative;
+	letter-spacing: 0px;
+	margin-left: 3px;
+	font-weight: 400;
+	margin: 0 0px 0 0px;
+	color: #050505;
+	font-size: 15px;
+	float: right;
+	width: 60px;
+	padding: 1px 0 0 0;
+	line-height: 29px;
+}
+.main_box_1 {
+	width: calc(50% - 20px);
+	float: left;
+	margin: 5px 10px;
+}
+.main_box_3 {
+	width: calc(33.3% - 20px);
+	float: left;
+	margin: 5px 10px;
+}
+.main_box_4 {
+	width: calc(25% - 20px);
+	float: left;
+	margin: 5px 10px;
+}
+#go-index .main_box_1 h3,
+.main_box_3 h3,
+.main_box_4 h3 {
+	border-bottom: 1px solid #ccc;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-bottom: 6px;
+	color: #a03110;
+}
+.main_box_1 h3 a:hover,
+.main_box_3 h3 a:hover,
+.main_box_4 h3 a:hover {
+	color: #f29001;
+}
+.main_box_1 p,
+.main_box_3 p,
+.main_box_4 p {
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	font-size: 17px;
+	border-bottom: 1px solid #fff;
+	line-height: 10px;
+	margin-bottom: 0px;
+}
+.main_box_1 p:hover,
+.main_box_3 p:hover,
+.main_box_4 p:hover {
+	border-bottom: 1px solid #5d5d5d;
+}
+.main_box_2 h3 a {
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	float: left;
+	width: calc(33% - 15px);
+	margin-right: 15px;
+}
+.main_box_2 h3 a:hover {
+	color: #f29001;
+	border-bottom: 1px solid #bc8a46;
+}
+/*slider UX*/
+.menu_block .list li {
+	cursor: pointer;
+	transition: all .3s ease-in;
+}
+.menu_block .list li:hover {
+	color: #f29001;
+}
+#go-index .menu_block .list p:hover i {
+	color: #f29001;
+}
+#go-index .menu_block .list li p:hover span {
+	color: #f29001;
+}
+#go-index .menu_block .list li:hover p {
+	color: #f29001;
+}
+#go-index .menu_block .list li .main a {
+	color: #050505;
+	font-weight: 400;
+}
+.menu_block .list li:hover .main {
+	visibility: visible;
+	opacity: 1;
+	z-index: 100;
+	/*    transform: translate(10px);*/
+	transition: ease-out .3s;
+	/*   animation:fadeInUp 100ms; ;*/
+	box-shadow: 5px 10px 25px -5px rgba(150, 150, 150, .4);
+}
+.menu_block .list li .main {
+	position: absolute;
+	left: 200px;
+	top: -0px;
+	width: 600px;
+	height: 500px;
+	background-color: #fff;
+	display: block;
+	visibility: hidden;
+	z-index: -1;
+	color: #555;
+	padding: 20px;
+	/*影響延遲滑過的關鍵*/
+	transition: .2s ease-in;
+	box-sizing: border-box;
+
+	/*    box-shadow: 13px 10px 25px rgba(150,150,150,.2);*/
+
+	box-shadow: 10px 10px 25px -5px rgba(150, 150, 150, .0);
+	/*     opacity: .8;*/
+}
+
+/*slider UX*/
+/*覆蓋slider連結區塊*/
+
+/*專區連結Start*/
+#go-index .zones-mob {
+	display: none;
+}
+#go-index .zones {
+	width: 100%;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #c6c6c6;
+	position: relative;
+
+	margin: 0 0 20px 0;
+	z-index: 1;
+}
+#go-index .zones .zones_container {
+	width: 1320px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+#go-index .zones .zones_item {
+	position: relative;
+	float: left;
+	display: inline-block;
+	/* width: 260px; */
+	width: 20%;
+	padding: 20px 0;
+	transition: .2s ease-out;
+}
+/* #go-index .zones .zones_item:hover{
+    color: #fff;
+    background-color:#F29001;
+    border-radius: 3px;
+} */
+
+#go-index .zones .zi_left {
+	float: left;
+	width: 30px;
+
+	display: inline-block;
+	font-size: 28px;
+	margin: 0px 10px 0 5px;
+	padding: 7px 0 0;
+}
+/* #go-index .zones .zones_item:hover .zi_left {
+    color:#F29001;
+} */
+#go-index .zones .zi_title {
+	display: inline-block;
+	width: 145px;
+	float: left;
+}
+#go-index .zones .zi_title .zi_ch {
+	width: 100%;
+	font-weight: 500;
+	margin: 5px 0 0 0;
+	height: 16px;
+	color: #000000;
+	float: left;
+	font-size: 17px;
+	transition: .1s ease-out;
+}
+#go-index .zones .zones_item:hover .zi_ch {
+	/* color: #fff; */
+	font-size: 21px;
+	transform: translate(0px, 6px);
+}
+#go-index .zones .zi_title .zi_en {
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	width: 100%;
+	font-size: 12px;
+	float: left;
+	transition: .1s all ease-out;
+}
+#go-index .zones .zones_item:hover .zi_en {
+	/* color: #fff; */
+	opacity: 0;
+}
+#go-index .zones .zi_sublist {
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+
+	list-style: none;
+	position: absolute;
+	left: 49%;
+	top: 16px;
+	transition: .18s all ease-out;
+	/* width: 50px; */
+	width: 0;
+	overflow: hidden;
+}
+#go-index .zones .zi_sublist .zi_sublist_item {
+	width: 49%;
+	margin: 5px 0;
+	line-height: 15px;
+	font-size: 14px;
+	white-space: nowrap;
+	float: left;
+	color: rgb(0, 0, 0);
+	letter-spacing: 0;
+}
+#go-index .zones .zones_item:hover .zi_sublist {
+	/* width: 50px; */
+	display: block;
+	opacity: 1;
+	width: 120px;
+}
+#go-index .zones .zones_item:hover .zi_arrow {
+	right: 8px;
+	top: calc(50% - 5px);
+}
+#go-index .zones .zones_item .zi_arrow {
+	position: absolute;
+	right: 68px;
+	top: calc(50% - 5px);
+	transition: .15s all ease-out;
+}
+#go-index .zones .zones_item .fa-dollar-sign {
+	margin-left: 8px;
+}
+/*專區連結End*/
+
+/*考試區塊 ExamZone 開始*/
+#go-index .examZone.dp-mob {
+	display: none;
+}
+#go-index .examZone {
+	width: 85%;
+	display: block;
+	margin: 0 auto;
+}
+#go-index .examZone .ez-col {
+	display: inline-block;
+	background-color: #ffffff;
+	width: 20%;
+	float: left;
+	padding: 0px 0 22px 10px;
+	box-sizing: border-box;
+	font-family: sans-serif, 'cwTeXYen', '微軟正黑體', 'Arial', '新細明體';
+}
+#go-index .examZone img {
+	width: 50px;
+	float: left;
+}
+#go-index .examZone .ez-col h1 {
+	display: block;
+	font-size: 12px;
+	float: left;
+	margin: 0 0 0 10px;
+}
+#go-index .examZone .ez-col span {
+	display: block;
+	font-size: 10px;
+	float: left;
+	margin: 0 0 0 10px;
+}
+#go-index .examZone .ez-col i {
+	display: block;
+	font-size: 14px;
+	float: left;
+	position: relative;
+	bottom: 9px;
+	margin: 0 0 0 10px;
+}
+/*考試區塊 ExamZone 結束*/
+
+/*--------------------------------------------------------------------------------------------*/
+/*考試時程 ExamSchedule 開始*/
+#go-index .examSchedule {
+	margin: 0;
+	width: 100%;
+}
+#go-index .es-container {
+	margin: 0 auto;
+	width: 1500px;
+}
+#go-index .es-title img {
+	margin: 10px auto;
+	width: 220px;
+}
+#go-index .es-function img {
+	margin: 45px auto;
+	width: 650px;
+}
+#go-index .es-function.dp-mob {
+	display: none;
+}
+
+/*filpsnap 控制CSS Start*/
+
+#go-index .examSchedule .viewport {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	-webkit-transform: translateZ(0); /* Optional: When heavy at iOS6+ */
+}
+
+#go-index .examSchedule .flipsnap {
+	width: 2800px; /* 320px(item width) * 3(item count) */
+}
+
+#go-index .examSchedule .flipsnap:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+#go-index .examSchedule .item {
+	float: left;
+	width: 280px;
+	height: 280px;
+	font-size: 10px;
+	text-align: center;
+	padding: 0px 0;
+	/*
+    border: 5px solid #fff3cb;
+    */
+	box-sizing: border-box;
+	font-family: 'century gothic', '微軟正黑體', 'Arial';
+}
+
+#go-index .item .es-date {
+	background-image: url(../img/es-date.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	width: 280px;
+	height: 280px;
+	padding: 0px 0;
+	box-sizing: border-box;
+}
+
+#go-index .item .es-month {
+	background-image: url(../img/es-month.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	width: 280px;
+	height: 280px;
+	padding: 0px 0;
+	box-sizing: border-box;
+}
+
+#go-index .item .es-month h2 {
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #7c7c7c;
+}
+
+/*月份鼓勵標語區塊外框START*/
+#go-index .item .es-encourage {
+	width: 60%;
+	background-color: #e5e5e5;
+	margin: 0px auto 0;
+	padding: 8px 15px;
+	font-size: 16px;
+}
+
+#go-index .item .es-encourage-shape {
+	margin: 20px 0 -5px 0;
+	width: 0px;
+	height: 0px;
+	border-width: 20px;
+	border-style: solid;
+	border-color: transparent transparent #e5e5e5 transparent;
+	display: inline-block;
+}
+/*月份鼓勵標語區塊外框END*/
+
+#go-index .examSchedule .viewport {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	-webkit-transform: translateZ(0); /* Optional: When heavy at iOS6+ */
+}
+
+#go-index .swiper-container {
+	width: 100%;
+	height: 340px;
+}
+#go-index .swiper-container .swiper-slide {
+	width: 280px;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+#go-index .swiper-container .swiper-slide .es-date {
+	background-image: url(../img/es-date-mob.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	width: 280px;
+	height: 280px;
+	padding: 0px 0;
+	box-sizing: border-box;
+}
+
+#go-index .swiper-container .swiper-slide .es-month {
+	background-image: url(../img/es-month.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	width: 280px;
+	height: 280px;
+	padding: 0px 0;
+	box-sizing: border-box;
+}
+
+#go-index .swiper-container .swiper-slide .es-month h2 {
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #7c7c7c;
+}
+#go-index .swiper-container .swiper-slide .es-month img {
+	width: 100%;
+	display: block;
+	border-radius: 4px;
+	margin: 10px 0;
+}
+/*月份鼓勵標語區塊外框START*/
+#go-index .swiper-container .swiper-slide .es-encourage {
+	width: 60%;
+	background-color: #e5e5e5;
+	margin: 0px auto 0;
+	padding: 8px 15px;
+	font-size: 16px;
+}
+
+#go-index .swiper-container .swiper-slide .es-encourage-shape {
+	margin: 20px 0 -5px 0;
+	width: 0px;
+	height: 0px;
+	border-width: 20px;
+	border-style: solid;
+	border-color: transparent transparent #e5e5e5 transparent;
+	display: inline-block;
+}
+/*月份鼓勵標語區塊外框END*/
+
+#go-index .swiper-container .swiper-slide .containBox {
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	width: 70%;
+	margin: 40px auto 0;
+	height: 180px;
+	box-shadow: 0px 0px 25px rgba(50, 50, 50, .15);
+}
+#go-index .swiper-container .swiper-slide h2 {
+	margin: 30px 0 0 0;
+	font-size: 19px;
+	font-weight: normal;
+	color: #1f1f1f;
+}
+#go-index .swiper-container .swiper-slide h1 {
+	margin: 18px auto 0;
+	font-size: 21px;
+	font-weight: 600;
+	color: #863f2a;
+	white-space: nowrap;
+	text-overflow: clip;
+	overflow: hidden;
+	width: 156px;
+}
+#go-index .swiper-container .swiper-slide ul {
+	display: inline-block;
+	list-style: none;
+	margin: 5px auto 8px;
+	padding: 0;
+	clear: both;
+	font-size: 15px;
+}
+#go-index .swiper-container .swiper-slide ul br {
+	display: none;
+}
+#go-index .swiper-container .swiper-slide i {
+	text-align: left;
+	width: 16px;
+}
+#go-index .swiper-container .swiper-slide span {
+	color: #863f2a;
+	margin: 0 6px 0 0;
+}
+#go-index .swiper-container .swiper-slide li {
+	text-align: left;
+	margin: 4px auto 0;
+}
+#go-index .swiper-container .swiper-slide .es-acions {
+	margin: 0 auto;
+	display: block;
+	width: 90%;
+}
+#go-index .swiper-container .swiper-slide .es-acions img {
+	display: inline-block;
+	width: 30px;
+	margin: 6px 2px 0;
+	border-radius: 3px;
+}
+
+#go-index .item h2 {
+	margin: 32px;
+	font-size: 19px;
+	font-weight: normal;
+	color: #1f1f1f;
+}
+#go-index .item h1 {
+	margin: 55px auto 0;
+	font-size: 19px;
+	font-weight: 600;
+	color: #863f2a;
+}
+#go-index .item ul {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	list-style: none;
+	margin: 5px 0 8px 19px;
+	clear: both;
+	font-size: 14px;
+}
+#go-index .item i {
+	text-align: left;
+	margin: 0 2px 0 0;
+}
+#go-index .item span {
+	color: #863f2a;
+	margin: 0 6px 0 0;
+}
+#go-index .item li {
+	text-align: left;
+	margin: 4px auto 0;
+}
+#go-index .item .es-acions {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	margin-left: 60px;
+}
+#go-index .item .es-acions img {
+	float: left;
+	display: inline-block;
+	width: 30px;
+	margin: 6px 12px 0 0px;
+	border-radius: 3px;
+}
+
+/*filpsnap 控制CSS END*/
+
+/*考試時程 ExamSchedule 結束*/
+/*--------------------------------------------------------------------------------------------*/
+
+/*影音專區 VideoZone 開始*/
+#go-index .videoZone {
+	margin: 0px 0 0 0;
+	width: 100%;
+	height: 650px;
+	background-image: url(../img/video-block.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#go-index .videoZone .vz-title {
+	color: #ffffff;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	padding: 220px 0 0 0;
+	display: block;
+}
+#go-index .videoZone .vz-title h2 {
+	font-size: 5px;
+	color: #fff3cb;
+	letter-spacing: 16px;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+#go-index .videoZone .vz-title h1 {
+	font-size: 33px;
+	font-weight: 600;
+	text-indent: 40px;
+	letter-spacing: 40px;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+}
+#go-index .videoZone .vz-title p {
+	font-size: 16px;
+	line-height: 30px;
+	margin: 50px auto 0 0;
+	text-align: center;
+	text-overflow: ellipsis;
+}
+#go-index .vz-slider-container .swiper-button-next,
+#go-index .vz-slider-container .swiper-button-prev {
+	background-size: 16px;
+	width: 38px;
+	height: 35px;
+	background-color: #fff;
+	opacity: .85;
+	margin-top: -110px;
+	transition: .17s all ease-out;
+}
+#go-index .vz-slider-container .swiper-button-prev {
+	background-image: url(../img/recommend_slider_prev.svg);
+	margin-left: -14px;
+}
+#go-index .vz-slider-container .swiper-button-next {
+	background-image: url(../img/recommend_slider_next.svg);
+	margin-right: -14px;
+}
+#go-index .vz-slider-container .swiper-button-disabled {
+	opacity: 0;
+}
+#go-index .vz-slider-container {
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	z-index: 10;
+	width: 1080px;
+	padding: 0 0px;
+	margin: -210px auto 36px;
+	height: 480px;
+	overflow: hidden;
+}
+#go-index .vz-slider-container .vzs-videoBlock {
+	box-shadow: 0px 10px 30px rgba(100, 100, 100, .3);
+	z-index: 20;
+	display: inline-block;
+	width: 320px;
+	margin: 0 20px;
+	padding: 0;
+}
+#go-index .vzs-videoBlock .vzb-container {
+	display: block;
+	background-color: #ffffff;
+	padding: 0 20px 0;
+}
+#go-index .vzs-videoBlock .vz-mask {
+	width: 320px;
+	height: 180px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+}
+#go-index .vzs-videoBlock .vz-mask img {
+	width: 100%;
+	height: 100%;
+}
+#go-index .vzs-videoBlock .vz-mask .vz-mask-playBtn {
+	margin: 0 auto;
+	display: block;
+	top: calc(50% - 40px);
+	left: calc(50% - 40px);
+	width: 80px;
+	position: absolute;
+	overflow: hidden;
+	z-index: 1;
+}
+#go-index .vzs-videoBlock .vz-mask::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	content: attr(data-text);
+	transition: all .4s ease;
+	color: #fff;
+	pointer-events: none;
+}
+#go-index .vzs-videoBlock .vz-mask:hover::after {
+	opacity: 0;
+}
+#go-index .vzs-videoBlock .vzb-container h1 {
+	font-size: 19px;
+	padding: 18px 0 0 0;
+	color: #a3907d;
+	margin: 0 0 0 0;
+	white-space: nowrap;
+	text-overflow: clip;
+}
+#go-index .vzs-videoBlock .vzb-container p {
+	height: 45px;
+	color: #050505;
+	font-weight: 500;
+	font-size: 16px;
+	margin: 7px 0 0 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 22px;
+}
+#go-index .vzs-videoBlock .vzb-container span {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 4px 0 16px;
+	height: 18px;
+}
+#go-index .vzs-videoBlock .vzb-container span a {
+	color: #000000;
+	font-size: 16px;
+	color: #ea8b00;
+}
+#go-index .vz-viewMore {
+	margin: 60px auto 0;
+	display: block;
+	background-color: #717171;
+	color: #ffffff;
+	width: 200px;
+	height: 60px;
+	letter-spacing: 7px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, .2);
+	border: 1px solid rgba(255, 255, 255, 0);
+	box-sizing: border-box;
+	transition: all .3s;
+}
+#go-index .vz-viewMore:hover {
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #3c3c3c;
+}
+/*考試時程 VideoZone 結束*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*文章專區 articleZone 開始*/
+
+#go-index .articleZone {
+	font-family: '微軟正黑體';
+	width: 100%;
+	margin: 10px auto 60px;
+	display: block;
+	float: left;
+}
+#go-index .az-container {
+	width: 1250px;
+	margin: 30px auto 20px;
+}
+#go-index .articleZone .az-col2 {
+	display: block;
+	float: left;
+	width: 50%;
+	margin: 0 0 40px 0;
+}
+#go-index .articleZone .news,
+#go-index .articleZone .hotnews {
+	/* height: 420px; */
+}
+#go-index .articleZone .news {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 0 80px 0;
+	clear: both;
+}
+#go-index .articleZone .news .az-title {
+	float: left;
+	width: 100%;
+	margin: 10px 0 20px 0;
+}
+#go-index .articleZone .news .az-title h1 {
+	float: left;
+	letter-spacing: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #858585;
+	margin: 10px 0 10px 0;
+}
+/* #go-index .articleZone .news .az-title h2{
+    float: left;
+    letter-spacing:10px ;
+    font-size:20px;
+    font-weight: 600;
+    color:#858585;
+    margin:10px  0 10px 0;
+    } */
+#go-index .articleZone .az-title h2 {
+	float: left;
+	letter-spacing: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #858585;
+	margin: 10px 0 10px 0;
+}
+#go-index .articleZone .az-title h3 {
+	float: left;
+	letter-spacing: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #858585;
+	margin: 10px 0 10px 0;
+}
+
+#go-index .articleZone .news .az-decoration-string {
+	display: inline-block;
+	float: left;
+	border-bottom: 1px solid #f29001;
+	width: 50px;
+	height: 1px;
+	margin: 24px 0px 20px 8px;
+}
+#go-index .articleZone .news .az-contain {
+	display: inline-block;
+	float: left;
+	margin: 0 0 18px 0;
+}
+#go-index .articleZone .news .az-contain i {
+	display: inline-block;
+	width: 16px;
+	float: left;
+	margin: 0;
+	padding: 0px 0 0 0;
+	color: #863f2a;
+}
+#go-index .articleZone .news .az-contain h1 {
+	display: inline-block;
+	font-weight: 600;
+	width: 92px;
+	font-size: 15px;
+	height: 18px;
+	float: left;
+	margin: 0px 5px 0 0;
+	color: #e28600;
+	overflow: hidden;
+	box-sizing: border-box;
+	white-space: nowrap;
+}
+#go-index .articleZone .news .az-contain h2 {
+	display: inline-block;
+	width: calc(100% - 130px);;
+	float: left;
+	font-size: 15px;
+	height: 18px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	color: #b17f70;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transition: .3s all;
+}
+#go-index .articleZone .news .az-contain:hover h2 {
+	color: #e28600;
+}
+#go-index .articleZone .news .az-contain p {
+	display: block;
+	font-size: 14px;
+	margin: 5px 0 0px 0;
+	line-height: 20px;
+	height: 40px;
+	font-weight: 500;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	box-sizing: border-box;
+	float: left;
+	color: #333333;
+}
+#go-index .articleZone .hotnews {
+	box-sizing: border-box;
+	padding: 0 0 0 80px;
+	display: inline-block;
+	clear: both;
+	/* height: 420px; */
+}
+#go-index .articleZone .hotnews .az-title {
+	font-weight: 600;
+	margin: 10px 0 20px 0;
+	font-size: 22px;
+	font-weight: 600;
+	color: #858585;
+}
+#go-index .articleZone .hotnews .az-title {
+	float: left;
+	width: 100%;
+	margin: 10px 0 20px 0;
+}
+#go-index .articleZone .hotnews .az-title h1 {
+	float: left;
+	letter-spacing: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 10px 0 10px 0;
+}
+#go-index .articleZone .hotnews .az-decoration-string {
+	display: inline-block;
+	float: left;
+	border-bottom: 1px solid #f29001;
+	width: 50px;
+	height: 1px;
+	margin: 24px 0px 20px 8px;
+}
+#go-index .articleZone .hotnews .az-contain {
+	width: 100%;
+	display: inline-block;
+	float: left;
+	margin: 0 0 30px 0;
+}
+#go-index .articleZone .hotnews img {
+	width: 90px;
+	height: 55px;
+	display: inline-block;
+	float: left;
+}
+#go-index .articleZone .hotnews .az-contain-block {
+	display: inline-block;
+	float: left;
+	width: 66%;
+	margin: 0 0 0 15px;
+	height: 48px;
+}
+#go-index .articleZone .hotnews .az-contain-block h4 {
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	height: 20px;
+	margin: 0 0 0 0px;
+	font-weight: 600;
+	color: #7b7b7b;
+	text-overflow: clip;
+	overflow: hidden;
+}
+#go-index .articleZone .hotnews .az-contain-block p {
+	display: inline-block;
+	float: left;
+	font-size: 13px;
+	line-height: 20px;
+	margin: 5px 0 0 0px;
+	text-overflow: clip;
+	overflow: hidden;
+	height: 40px;
+	color: #292929;
+}
+#go-index .articleZone .az-more {
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+#go-index .az-more button {
+	background-color: #ffffff;
+	border: 1px solid rgba(0, 0, 0, .5);
+	width: 100px;
+	height: 40px;
+	display: block;
+	float: right;
+	transition: .2s all;
+	margin: 10px 90px 0 0;
+}
+
+#go-index .az-more button:hover {
+	color: #ffffff;
+	background-color: #f29001;
+	cursor: pointer;
+}
+
+/*考試時程 articleZone 結束*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*學員心得專區 experienceZone 開始*/
+
+#go-index .experienceZone {
+	display: block;
+	margin: 0 0 50px 0;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#go-index .experienceZone .exz-slider {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+#go-index .experienceZone .swiper-pagination {
+	bottom: 30px;
+}
+#go-index .experienceZone .swiper-pagination-bullet {
+	width: 8px;
+	height: 8px;
+	background-color: #191919;
+	opacity: 1;
+}
+
+#go-index .experienceZone .swiper-pagination-bullet-active {
+	background-color: #ffffff;
+}
+#go-index .experienceZone .swiper-button-next,
+#go-index .experienceZone .swiper-button-prev {
+	position: absolute;
+	outline: none;
+}
+#go-index .experienceZone .swiper-button-next {
+	background-image: url(../img/exz-next.svg);
+	right: 0;
+}
+#go-index .experienceZone .swiper-button-prev {
+	background-image: url(../img/exz-prev.svg);
+	left: 0;
+}
+
+#go-index .experienceZone .exz-mask {
+	position: absolute;
+	background: linear-gradient(-70deg, transparent 60%, #000000 0);
+	opacity: .5;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 0px;
+	pointer-events: none;
+}
+
+#go-index .experienceZone .exz-videoBlock .exz-container {
+	position: absolute;
+	margin-left: 14%;
+	margin-right: auto;
+	display: block;
+	color: #ffffff;
+	left: 0px;
+	right: 0;
+	top: 20%;
+	box-sizing: border-box;
+	width: 20%;
+	text-align: left;
+}
+#go-index .experienceZone .exz-videoBlock .exz-container h1 {
+	display: block;
+	width: 100%;
+	font-size: 30px;
+	margin: 0 0 25px 0;
+	text-overflow: clip;
+	overflow: hidden;
+}
+
+#go-index .experienceZone .exz-videoBlock .exz-container h2 {
+	display: block;
+	font-size: 22px;
+	font-weight: 0;
+	margin: 0 0 0 0;
+}
+#go-index .experienceZone .exz-videoBlock .exz-container h3 {
+	font-size: 20px;
+	font-weight: 0;
+	margin: 0 0 0 0;
+	display: block;
+	text-overflow: clip;
+	overflow: hidden;
+}
+#go-index .experienceZone .exz-videoBlock .exz-container h3 span {
+	color: #ff9922;
+}
+#go-index .experienceZone .exz-videoBlock .exz-container p {
+	display: block;
+	height: 85px;
+	font-size: 15px;
+	text-overflow: clip;
+	overflow: hidden;
+	line-height: 18px;
+}
+#go-index .experienceZone .exz-videoBlock .exz-container button {
+	font-size: 16px;
+	width: 120px;
+	height: 40px;
+	border-radius: 3px;
+	border: 0px none;
+	color: #ffffff;
+	background-color: #f29001;
+	transition: .2s all;
+	margin: 28px 0 0 0;
+	font-family: sans-serif, 'cwTeXYen', '微軟正黑體', 'Arial', '新細明體';
+	letter-spacing: 4px;
+}
+#go-index .experienceZone .exz-videoBlock .exz-container button:hover {
+	cursor: pointer;
+	border: 0px none;
+	color: #863f2a;
+	background-color: #ffffff;
+}
+/*考試時程 experienceZone 結束*/
+/*--------------------------------------------------------------------------------------------*/
+/*考試時程 bx-sliderCSS外部控制 */
+#go-index .bx-viewport {
+	padding-bottom: 50px;
+}
+#go-index .es-loader .swiper-button-prev {
+	background-image: url(../img/es-btn-left2.svg);
+	left: 0px;
+	background-color: #ffffff;
+	height: 300px;
+	padding: 0 15px;
+	top: calc(45% - 100px);
+	transition: .2s ease-in;
+	outline: none;
+}
+#go-index .es-loader .swiper-button-next {
+	background-image: url(../img/es-btn-right2.svg);
+	right: 0px;
+	background-color: #ffffff;
+	height: 300px;
+	padding: 0 15px;
+	top: calc(45% - 100px);
+	transition: .2s ease-in;
+	outline: none;
+}
+#go-index .es-loader .swiper-button-next:hover,
+#go-index .es-loader .swiper-button-prev:hover {
+	opacity: 1;
+	transform: scale(1.2);
+	outline: none;
+}
+#go-index .es-loader .swiper-button-prev.swiper-button-disabled {
+	background-image: url(../img/es-btn-left.svg);
+	opacity: .85;
+}
+#go-index .es-loader .swiper-button-next.swiper-button-disabled {
+	background-image: url(../img/es-btn-right.svg);
+	opacity: .85;
+}
+/* Change the link color to #111 (black) on hover */
+.clearfix {
+	clear: both;
+}

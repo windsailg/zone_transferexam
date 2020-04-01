@@ -1,0 +1,128 @@
+
+/*考試回填表單樣式*/
+ .form_block{
+    display:block;
+    width:100%;
+    float: left;
+    margin:60px 0;
+}
+ .form_block h3{
+    color:#e50909;
+    font-weight: 300;
+    font-size: 19px
+}
+ .form_block .form_subtitle{
+    font-size: 16px
+}
+ .form_block .form_subtitle span{
+color:#e50909;
+float: right;
+font-size: 16px;
+padding:0;
+border-radius:0;
+    background-color: rgba(255, 255, 255, 0);
+}
+ .examList_form{
+    letter-spacing: 2px;
+    font-size: 17px;
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse:collapse;
+    margin:14px auto  20px;
+}
+
+ .examList_form td{
+    vertical-align: middle;
+    text-align: left;
+}
+ .examList_form td:nth-child(1){
+background-color: #f7f7f7;
+    width:200px;
+}
+ .examList_form td:nth-child(2){
+box-sizing: border-box;
+    padding-left: 16px;
+}
+ .examList_form input{
+    height:20px;
+        width:40%;
+    font-size: 17px;
+}
+  .examList_form select{
+    height:30px;
+font-size: 17px;
+}
+  .examList_form textarea{
+font-size: 17px;
+}
+.examList_form input,option,textarea{
+    font-family:  sans-serif ,'cwTeXYen','微軟正黑體','Arial', '新細明體';
+}
+  .examList_form select{
+    height:30px;
+    font-size: 17px;
+    box-sizing: content-box;
+    border-color: #8d8d8d;
+    background-color: #fff;
+    -webkit-appearance:menulist;
+}
+  .check_terms{
+    margin:20px 0;
+    padding:0;
+    border-radius:0;
+    background-color: rgba(255, 255, 255, 0);
+}
+      .check_terms .check_item{
+            margin:5px auto;
+}
+  .check_terms span  { 
+    font-size: 17px;
+    padding:0;
+    border-radius:0;
+    background-color: rgba(255, 255, 255, 0);
+}
+  .check_terms span a { 
+    text-decoration: underline;
+    transition: ease-out .3s;
+    color: #f29001;
+}
+  .check_terms span a:hover { 
+    color: #ffaf3a;
+}
+ .form_sub_float{
+width:100%;
+    float: left;
+    display: block;
+}
+ .form_sub{
+    display: block;
+    background-color: #f29001;
+    border: 0px solid transparent;
+    height:45px;
+    width:130px;
+    color: #ffffff;
+    transition: .3s ease-out;
+    cursor:pointer;
+    font-size: 17px;
+    border-radius: 5px;
+    margin:0 auto;
+    box-shadow: 0 7px 8px rgba(165, 165, 165, 0.24);
+}
+ .form_sub:hover{
+background-color: #ffffff;
+    border: 1px solid #f29001;
+    color: #f29001;
+}
+
+@media only screen and (max-width:1350px){
+.check_terms .check_terms_container{
+        width:60%;
+       margin:5px auto;
+}
+}
+
+@media only screen and (max-width:551px){
+ .check_terms .check_terms_container{
+        width:100%;
+}
+}
