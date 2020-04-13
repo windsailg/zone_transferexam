@@ -17,7 +17,8 @@ text-align: center;
 }
 /* reset */
 body {
-    font-family: 'cwTeXYen','微軟正黑體', 'Arial' , sans-serif ,'新細明體';
+    font-size: 15px;
+    font-family: '微軟正黑體', 'Arial' , sans-serif ,'新細明體';
     margin: 0 0 0 0; padding: 0 0 0 0x; 
 }
 
@@ -29,7 +30,7 @@ body {
 }
 
 #go-header {
-     font-family: 'cwTeXYen','微軟正黑體', 'Arial' , sans-serif ;
+     font-family: '微軟正黑體', 'Arial' , sans-serif ;
     z-index: 99998;/*alert = 99999*/
     width:100%;
     box-shadow: 0px  0px  40px rgba(0 ,0,0, .2);
@@ -194,9 +195,9 @@ margin:8px 0 0 0 ;
     padding: 15px  0 0 0;
     text-decoration: none;
     float: right;
-    font-weight: 500;
+    
     transition: .15s all;
-    font-size: 16px;
+    font-size: 0.9em;
     transition-delay:.3s ease-out;
 }
 #go-header .header-nav .navs a i {
@@ -276,7 +277,7 @@ margin:8px 0 0 0 ;
     padding: 0;
     display: block;
     line-height: 16px;
-    font-size: 17px;
+    font-size: 1em;
 }
  #go-header .nav-dropdown .ndList-s {
      display: inline-block;
@@ -295,9 +296,9 @@ margin:8px 0 0 0 ;
      width:140px;
 } 
 #go-header .nav-dropdown .ndList-s .ndList-item a{
-color:#2e2e2e;
+    color:#2e2e2e;
     transition: .2s ease-out;
-    font-size: 16px
+    font-size: 0.8em;
 }
 #go-header .nav-dropdown .ndList-s .ndList-item a:hover{
 color:#F29001;
@@ -317,19 +318,19 @@ color:#F29001;
      width:100%;
 }
  #go-header .nav-dropdown .ndList-b .ndList-item-b {
-     display: inline-block;
-     margin:0;
-      padding: 0;
-      float: left;
-     width:150px;
-      font-size: 17px;
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    float: left;
+    width:150px;
+    font-size: 0.9em;
 }
  #go-header .nav-dropdown .ndList-b .ndList-item-b a {
-     margin:0;
-     padding: 0;
-      float: left;
+    margin:0;
+    padding: 0;
+    float: left;
     text-align: left;
-     transition: .2s ease-out;
+    transition: .2s ease-out;
 }
 /*#go-header .navs:hover .nav-dropdown {*/
 /*
@@ -371,7 +372,7 @@ color:#F29001;
     float: left;
 }
 #go-header  .icobtn:hover {
-background:#e8cc97;
+    background:#e8cc97;
 }
 #go-header .member-element {
     position: relative;
@@ -388,7 +389,7 @@ background:#e8cc97;
 #go-header .member-element img{
     display: inline-block;
     padding: 0px;
-width:20px;
+    width:20px;
     float:left;
     box-sizing: border-box;
 }
@@ -471,15 +472,15 @@ width:22px;
     box-sizing: border-box;
 }
 #go-header  .member .login.dp-mob{
-display: none; 
+    display: none; 
 }
 #go-header  .member .login.dp-mob{
-display: none; 
+    display: none; 
 }
 
 
 #go-header  .member .onlineService.dp-mob {
-display: none; 
+    display: none; 
 }
 
 #go-header .member .member-element.dp-mob{
@@ -493,7 +494,7 @@ display: none;
     float: right;
     transition: all .2s;
     border: 1px solid #9b9b9b;
-    font-size: 17px;
+    font-size: 0.9em;
 }
 #go-header  .member .account {
     position: relative;
@@ -503,14 +504,14 @@ display: none;
     float: right;
     transition: all .2s;
     border: 1px solid #9b9b9b;
-    font-size: 17px;
+    font-size: 0.9em;
 }
 
 #go-header .member-element.onlineService span {
- display:block;
+    display:block;
     margin: 0;
     padding: 0;
-font-size: 18px;
+    font-size: 1em;
 }
 
 

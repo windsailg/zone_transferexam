@@ -1,895 +1,821 @@
 /* reset */
 body {
-font-family: '微軟正黑體 ';
-margin: 0; padding: 0px; 
-/* overflow: hidden;*/
-}
-@media only screen and (max-width:1900px){
-#go-index .menubanner-slider{
-margin-left:calc(-960px + 50%);
-}
-#go-index .menu_block {
-left:calc(-660px + 50%);
+   font-family: '微軟正黑體 ';
+   margin: 0;
+   padding: 0px;
+   /* overflow: hidden;*/
 }
 
-#go-index .experienceZone .evb_img{
-margin-left: calc(-960px + 50%);
-}
-/* mobile */
+@media only screen and (max-width:1900px) {
+   #go-index .menubanner-slider {
+      margin-left: calc(-960px + 50%);
+   }
 
-}
+   #go-index .menu_block {
+      left: calc(-660px + 50%);
+   }
 
-@media only screen and (max-width:1600px){
-#go-index .experienceZone .evb_img{
-margin-left: -20%;
-height: 55vw;
-} 
-#go-index .az-container{
-width: 100%;
-margin: 0px auto 20px;
-float: left;
-display: block;
-}
-#go-footer .ft-bottom .cols img{
-width:12%;
-line-height: 20px;
-margin: 5% 0 0 0;
-float:right ;
-}
-}
-@media only screen and (max-width:1500px){
-#go-index .es-container{
-margin:0 auto;
-width:100%;
-}
-}
-@media only screen and (max-width:1330px){
-#go-index .menu_block.dp-mob{
-display: none;
-}
+   #go-index .experienceZone .evb_img {
+      margin-left: calc(-960px + 50%);
+   }
 
-/*專區連結Start*/
-#go-index .zones{
-display: none;
-}
-#go-index .zones-mob{
-position: relative;
-display: block;
-float: left;
-width: 100%;
-background-color: #F29001;
-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.26);;
-z-index: 2;
-}
-#go-index .zones-mob .zones-mob_container{
-width: 100%;
-margin: 0 auto;
-padding: 0;
-list-style: none;
-box-sizing: border-box;
-}
-#go-index .zones-mob .zones_item{
-position: relative;
-float: left;
-display: inline-block;
-width: 20%;
-padding:10px 0 8px;
-transition:.2s ease-out;
-}
-#go-index .zones-mob .zi_top{
-text-align: center;
-width: 100%;
-display: block;
-font-size: 20px;
-margin: 0px auto 0 ;
-color: #ffffff;
-}
-#go-index .zones-mob .zi_title{
-display: block;
-width: 100%;
-float: left;
-text-align: center;
-color: #ffffff;
-font-weight: 500;
-margin: 6px 0 0 0;
-float: left;
-font-size: 18px;
-transition:.2s ease-out;
-}
-/*專區連結End*/
-
-#go-index .videoZone{
-width:100%;
-height:330px;
-}
-
-#go-index .videoZone .vz-title {
-color: #ffffff;
-text-align: center;
-width:80%;
-margin:0 auto;
-padding:110px 0 0 0 ;
-display:block;
-}
-#go-index .videoZone .vz-title h2{
-font-size: 5px;
-color: #fff3cb;
-letter-spacing:16px;
-margin:0 auto;
-text-align: center;
-display:block;
-}
-#go-index .videoZone .vz-title h1 {
-font-size: 23px;
-font-weight: 500;
-text-indent: 20px;
-letter-spacing:8px;
-color: #ffffff;
-text-align: center;
-margin:0;
-}
-#go-index .videoZone .vz-title p{
-font-size: 16px;
-line-height: 20px;
-margin:20px auto 0 0;
-}
-
-#go-index .articleZone .az-col2 {
-width: 100%;
-}
-#go-index .vz-slider-container{
-display:block;
-position:relative;
-z-index: 10;
-width:auto;
-margin: -75px auto 10px;
-height: 450px;
-}    
-
-#go-index   .vz-slider{
-margin-left:calc(50% - 180px);
-}
-/*文章專區 articleZone 開始*/    
-#go-index .articleZone{
-display:block;
-height:auto;
-}
-#go-index .articleZone .az-col2 {
-display:inline-block;
-float:left;
-height:auto;
-padding: 0 20px 0px 0px;
-margin:0;
-box-sizing: border-box;
-}
-#go-index .articleZone .news{
-margin:10px 30px 0 ;
-padding:0px 30px 0px;
-height:auto;
-box-sizing: border-box;
-}
-#go-index .articleZone .news .az-title{
-float: left;
-width:100%;
-}
-#go-index .articleZone .news .az-title h1{
-float: left;
-letter-spacing:10px ;
-font-size:20px;
-font-weight: 600;
-margin:10px  0 10px 0;
-}
-#go-index .articleZone .news .az-decoration-string{
-display: inline-block;
-float: left;
-border-bottom: 1px solid #F29001;
-width: 50px;
-height: 1px;
-margin:24px 0px 20px   8px;
-} 
-#go-index .articleZone .news .az-contain{
-width:100%;
-display:inline-block;
-float:left;
-margin:0 0 18px 0;
-}
-#go-index .articleZone .news .az-contain a{
-display:block;
-width:100%;
-float:left;
-margin:0;
-text-overflow:clip;
-}   
-#go-index .articleZone .news .az-contain i{
-display:inline-block;
-float:left;
-padding:3px 0 0 0;
-color:#863f2a;
-width:16px;
-}
-#go-index .articleZone .news .az-contain a h1{
-display:inline-block;
-font-weight: 600;
-width:80%;
-font-size: 15px;
-float:left;
-margin:0;
-color:#e29214;
-}
-#go-index .articleZone .news .az-contain a h2{
-display:inline-block;
-width:95%;
-float:left;
-font-size: 15px;
-height:20px;
-margin:2px 0 0 0;
-padding:0 0 0 18px;
-color:#863f2a;
-overflow: hidden;
-text-overflow:clip;
-}
-#go-index .articleZone .news .az-contain a p{
-display:block;
-float:left;
-font-size: 13px;
-margin:5px 0 0px 0;
-padding:0 0 0 20px;
-line-height:20px;
-height:40px;
-overflow: hidden;
-text-overflow:clip;
-box-sizing: border-box;
-}
-
-#go-index .articleZone .hotnews{
-margin:30px 30px 0 ;
-padding:30px 30px 0px;
-height:auto;
-box-sizing: border-box;
-}
-#go-index .articleZone .hotnews .az-title{
-font-size:24px;
-font-weight: 600;
-margin:10px  0 20px 0;
-}
-#go-index .articleZone .hotnews .az-contain{
-width:100%;
-display:inline-block;
-float:left;
-margin:0 0 30px 0;
-}
-#go-index .articleZone .hotnews img{
-width:80px;
-height:55px;
-display:inline-block;
-float:left;
-}
-
-#go-index .articleZone .hotnews .az-contain-block{
-width: calc(90% - 80px);
-display:inline-block;
-float:left;
-margin:0 0 0 15px;
-height:50px;
-}
-
-#go-index .articleZone .hotnews .az-contain-block h4{
-display:inline-block;
-float:left;
-font-size: 15px;
-height:20px;
-margin:0 0 0 0px;
-text-overflow: clip;
-overflow: hidden;
-
-}
-#go-index .articleZone .hotnews .az-contain-block p{
-display:inline-block;
-float:left;
-font-size: 13px;
-line-height: 20px;
-margin:5px 0 0 0px;
-text-overflow: clip;
-overflow: hidden;
-height:40px;
-}
-
-#go-index .articleZone  .az-more{
-width:100%;
-display:inline-block;
-float:left;
-margin:0;
-padding:0 0px 0 0px;
-}
-#go-index .az-more button{
-background-color:#ffffff;
-border:1px solid  rgba( 0,0,0,.5);
-width:100px;
-height:40px;
-display:block;
-float:right;
-transition:.2s all ;
-margin:0px 40px 0 0;
-}
-
-
-
-
-#go-index .az-more button{
-background-color:#ffffff;
-border:1px solid  rgba( 0,0,0,.5);
-width:100px;
-height:40px;
-display:block;
-float:right;
-transition:.2s all ;
-margin:10px 90px 0 0;
-}
-
-
-
-/*考試時程 articleZone 結束*/   
-
-
-/*影音心得開始*/ 
-#go-index .experienceZone .exz-videoBlock .exz-container{
-position:absolute;
-margin-left: 14%;
-margin-right: auto;
-display:block;
-color:#ffffff;
-left: 0px;
-right: 0;
-top: 12%;
-box-sizing: border-box;
-width:20%;
-}
-
-#go-index .experienceZone .exz-videoBlock .exz-container h1{
-display: block;
-width:100%;
-font-size:26px;
-margin:0 0 25px 0;
-text-overflow: clip;    
-overflow: hidden;
-}
-
-#go-index .experienceZone .exz-videoBlock .exz-container h2{
-display: block;
-font-size:18px;
-font-weight: 0;
-margin:0 0 0 0;
-}
-#go-index .experienceZone .exz-videoBlock .exz-container h3{
-font-size:16px;
-font-weight: 0;
-margin:0 0 0 0;
-display: block;
-text-overflow: clip;    
-overflow: hidden;
-}
-
-#go-index .experienceZone .exz-videoBlock .exz-container h3 span{
-color:#ff9922;
-}
-
-#go-index .experienceZone .exz-videoBlock .exz-container p{
-display: block;
-height:76px;
-font-size:14px;
-text-overflow: clip;    
-overflow: hidden;
+   /* mobile */
 
 }
 
-#go-index .experienceZone .exz-videoBlock .exz-container button{
-font-size:16px;
-width:120px;
-height:40px;
-border-radius: 3px;
-border: 0px none ;
-color:#ffffff;
-background-color: #F29001;
-transition:.2s all;
-margin:10px 0 0 0;
-font-family: '微軟正黑體';
-letter-spacing: 4px;
-}
-/*影音心得結束*/
+@media only screen and (max-width:1600px) {
+   #go-index .experienceZone .evb_img {
+      margin-left: -20%;
+      height: 55vw;
+   }
 
-
-/*footer區塊樣式*/
-#go-footer {
-z-index: 10;
-
-padding:0;
-width:100%;
-overflow: hidden;
-background-color: #ffffff;
-}
-#go-footer .containBox{
-width: 80%;
-margin:0px auto;
-}
-#go-footer  hr{
-width: 100%;
-height:1.5px;
-border: 0px solid ;
-margin:30px 0 30px 0;
-background-color: rgba(199, 199, 199, 0.5);
-}
-
-#go-footer .ft-left.dp-tab{
-display:none;
-}
-
-/*footer左側圖片*/
-#go-footer .ft-left.dp-mob{
-box-sizing: border-box;
-display:inline-block;
-float:right;
-margin:20px 0 0 0 ;
-width:100%;
-}
-
-/*footer右側文字區塊*/
-
-#go-footer .ft-left.dp-mob .cols{
-width:48%;
-margin:15px 0 0 0;
-float: left;
-display: inline-block;
-box-sizing: border-box;
-}
-
-#go-footer .ft-left.dp-mob p{
-margin:6px 0 0 0;
-}
-#go-footer .ft-left.dp-mob a {
-color:#898989;
-transition:  .3s all ;
-}
-#go-footer .ft-left.dp-mob .cols h1{
-display:inline-block;
-font-size: 16px;
-font-weight: bold;
-color: #343434;
-margin:0 0 0px 0;
-}
-#go-footer .ft-left.dp-mob .foot_logo{
-box-sizing: border-box;
-display:inline-block;
-float:left;
-padding: 0px 0 0 0;
-margin:22px 0 0px 0px ;
-width: 200px;
-}
-#go-footer .ft-left.dp-mob .foot_qr{
-display:inline-block;
-width:54px;
-margin:29px 0 0 10px ;
-float:left;
-}
-/*footer右側文字區塊*/
-#go-footer .ft-right{
-float:left;
-width:100%;
-max-width:1000px;
-display:inline-block;
-margin:0px auto;
-box-sizing: border-box;
-}
-
-#go-footer .ft-right .cols{
-float:left;
-display:inline-block;
-width:32%;
-box-sizing: border-box;
-margin: 0;
-}
-#go-footer .ft-right p{
-margin:3px 0 0 0;
-letter-spacing: 2.5px;
-}
-#go-footer .ft-right a {
-color:#5d5d5d;
-transition: .3s all ;
-letter-spacing: 2px;
-font-size: 14px;
-}
-#go-footer .ft-right .cols h1{
-display:block;
-font-weight: bold;
-margin:0 0 6px 0;
-letter-spacing: 2px;
-}
-
-/*footer底部文字區塊*/
-#go-footer .ft-bottom{
-width:100%;
-height:70px;
-float: left;
-}
-#go-footer .ft-bottom .cols {
-line-height: 40px;
-float: left;
-color:#000000;
-display:inline-block;
-width:31%;
-}
-#go-footer .ft-bottom .cols i{
-line-height: 20px;
-margin:0 0  0 15px ;
-padding: 0;
-}
-#go-footer .ft-bottom .cols p{
-color:#676767;
-display: inline-block;
-width: 100%;
-margin:0;
-line-height: 20px
-}
-#go-footer .ft-bottom .cols img{
-width:20%;
-line-height: 20px;
-margin: 14px 0 0 0;
-float:right ;
-}
-
-
-}
-@media only screen and (max-width:1270px){
-#go-index .articleZone .az-col2 {
-width: 100%;
-margin:10px auto 0px;
-}
-}
-@media only screen and (max-width:1100px){
-#go-index .az-container{
-width:100%;
+   #go-index .az-container {
+      width: 100%;
+      margin: 0px auto 20px;
+      float: left;
+      display: block;
+   }
 
 }
 
-#go-index .videoZone{
-margin:0px 0 0 0;
-width:100%;
-height:300px;
-background-image: url(../img/video-block-mob.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size:cover;
+@media only screen and (max-width:1500px) {
+   #go-index .es-container {
+      margin: 0 auto;
+      width: 100%;
+   }
 }
+
+@media only screen and (max-width:1330px) {
+   #go-index .menu_block.dp-mob {
+      display: none;
+   }
+
+   /*專區連結Start*/
+   #go-index .zones {
+      display: none;
+   }
+
+   #go-index .zones-mob {
+      position: relative;
+      display: block;
+      float: left;
+      width: 100%;
+      background-color: #F29001;
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.26);
+      ;
+      z-index: 2;
+   }
+
+   #go-index .zones-mob .zones-mob_container {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+      box-sizing: border-box;
+   }
+
+   #go-index .zones-mob .zones_item {
+      position: relative;
+      float: left;
+      display: inline-block;
+      width: 20%;
+      padding: 10px 0 8px;
+      transition: .2s ease-out;
+   }
+
+   #go-index .zones-mob .zi_top {
+      text-align: center;
+      width: 100%;
+      display: block;
+      font-size: 20px;
+      margin: 0px auto 0;
+      color: #ffffff;
+   }
+
+   #go-index .zones-mob .zi_title {
+      display: block;
+      width: 100%;
+      float: left;
+      text-align: center;
+      color: #ffffff;
+      font-weight: 500;
+      margin: 6px 0 0 0;
+      float: left;
+      font-size: 18px;
+      transition: .2s ease-out;
+   }
+
+   /*專區連結End*/
+
+   #go-index .videoZone {
+      width: 100%;
+      height: 330px;
+   }
+
+   #go-index .videoZone .vz-title {
+      margin: 0 auto;
+      padding: 70px 0 0 0;
+   }
+
+   #go-index .videoZone .vz-title .video_zone_subtitle {
+      font-size: 12px;
+      letter-spacing: 16px;
+      text-indent: 16px;
+      margin: 0 auto;
+      text-align: center;
+   }
+
+   #go-index .videoZone .vz-title .video_zone_title {
+      font-size: 23px;
+      text-indent: 20px;
+      letter-spacing: 20px;
+      text-align: center;
+      margin: 0;
+   }
+
+   #go-index .videoZone .vz-title p {
+      font-size: 16px;
+      line-height: 20px;
+      margin: 20px auto 0 0;
+   }
+
+   #go-index .articleZone .az-col2 {
+      width: 100%;
+   }
+
+   #go-index .vz-slider-container {
+      display: block;
+      position: relative;
+      z-index: 10;
+      width: auto;
+      margin: -75px auto 10px;
+      height: 450px;
+   }
+
+   #go-index .vz-slider {
+      margin-left: calc(50% - 180px);
+   }
+
+   /*文章專區 articleZone 開始*/
+   #go-index .articleZone {
+      display: block;
+      height: auto;
+   }
+
+   #go-index .articleZone .az-col2 {
+      display: inline-block;
+      float: left;
+      height: auto;
+      padding: 0 20px 0px 0px;
+      margin: 0;
+      box-sizing: border-box;
+   }
+
+   #go-index .articleZone .news {
+      margin: 10px 30px 0;
+      padding: 0px 30px 0px;
+      height: auto;
+      box-sizing: border-box;
+   }
+
+   #go-index .articleZone .news .az-title {
+      float: left;
+      width: 100%;
+   }
+
+   #go-index .articleZone .news .az-title h1 {
+      float: left;
+      letter-spacing: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 10px 0 10px 0;
+   }
+
+   #go-index .articleZone .news .az-decoration-string {
+      display: inline-block;
+      float: left;
+      border-bottom: 1px solid #F29001;
+      width: 50px;
+      height: 1px;
+      margin: 24px 0px 20px 8px;
+   }
+
+   #go-index .articleZone .news .az-contain {
+      width: 100%;
+      display: inline-block;
+      float: left;
+      margin: 0 0 18px 0;
+   }
+
+   #go-index .articleZone .news .az-contain a {
+      display: block;
+      width: 100%;
+      float: left;
+      margin: 0;
+      text-overflow: clip;
+   }
+
+   #go-index .articleZone .news .az-contain i {
+      display: inline-block;
+      float: left;
+      padding: 3px 0 0 0;
+      color: #863f2a;
+      width: 16px;
+   }
+
+   #go-index .articleZone .news .az-contain a h1 {
+      display: inline-block;
+      font-weight: 600;
+      width: 80%;
+      font-size: 15px;
+      float: left;
+      margin: 0;
+      color: #e29214;
+   }
+
+   #go-index .articleZone .news .az-contain a h2 {
+      display: inline-block;
+      width: 95%;
+      float: left;
+      font-size: 15px;
+      height: 20px;
+      margin: 2px 0 0 0;
+      padding: 0 0 0 18px;
+      color: #863f2a;
+      overflow: hidden;
+      text-overflow: clip;
+   }
+
+   #go-index .articleZone .news .az-contain a p {
+      display: block;
+      float: left;
+      font-size: 13px;
+      margin: 5px 0 0px 0;
+      padding: 0 0 0 20px;
+      line-height: 20px;
+      height: 40px;
+      overflow: hidden;
+      text-overflow: clip;
+      box-sizing: border-box;
+   }
+
+   #go-index .articleZone .hotnews {
+      margin: 30px 30px 0;
+      padding: 30px 30px 0px;
+      height: auto;
+      box-sizing: border-box;
+   }
+
+   #go-index .articleZone .hotnews .az-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 10px 0 20px 0;
+   }
+
+   #go-index .articleZone .hotnews .az-contain {
+      width: 100%;
+      display: inline-block;
+      float: left;
+      margin: 0 0 30px 0;
+   }
+
+   #go-index .articleZone .hotnews img {
+      width: 80px;
+      height: 55px;
+      display: inline-block;
+      float: left;
+   }
+
+   #go-index .articleZone .hotnews .az-contain-block {
+      width: calc(90% - 80px);
+      display: inline-block;
+      float: left;
+      margin: 0 0 0 15px;
+      height: 50px;
+   }
+
+   #go-index .articleZone .hotnews .az-contain-block h4 {
+      display: inline-block;
+      float: left;
+      font-size: 15px;
+      height: 20px;
+      margin: 0 0 0 0px;
+      text-overflow: clip;
+      overflow: hidden;
+
+   }
+
+   #go-index .articleZone .hotnews .az-contain-block p {
+      display: inline-block;
+      float: left;
+      font-size: 13px;
+      line-height: 20px;
+      margin: 5px 0 0 0px;
+      text-overflow: clip;
+      overflow: hidden;
+      height: 40px;
+   }
+
+   #go-index .articleZone .az-more {
+      width: 100%;
+      display: inline-block;
+      float: left;
+      margin: 0;
+      padding: 0 0px 0 0px;
+   }
+
+   #go-index .az-more button {
+      background-color: #ffffff;
+      border: 1px solid rgba(0, 0, 0, .5);
+      width: 100px;
+      height: 40px;
+      display: block;
+      float: right;
+      transition: .2s all;
+      margin: 0px 40px 0 0;
+   }
+
+
+
+
+   #go-index .az-more button {
+      background-color: #ffffff;
+      border: 1px solid rgba(0, 0, 0, .5);
+      width: 100px;
+      height: 40px;
+      display: block;
+      float: right;
+      transition: .2s all;
+      margin: 10px 90px 0 0;
+   }
+
+
+
+   /*考試時程 articleZone 結束*/
+
+
+   /*影音心得開始*/
+   #go-index .experienceZone .exz-videoBlock .exz-container {
+      position: absolute;
+      margin-left: 14%;
+      margin-right: auto;
+      display: block;
+      color: #ffffff;
+      left: 0px;
+      right: 0;
+      top: 12%;
+      box-sizing: border-box;
+      width: 20%;
+   }
+
+   #go-index .experienceZone .exz-videoBlock .exz-container h1 {
+      display: block;
+      width: 100%;
+      font-size: 26px;
+      margin: 0 0 25px 0;
+      text-overflow: clip;
+      overflow: hidden;
+   }
+
+   #go-index .experienceZone .exz-videoBlock .exz-container h2 {
+      display: block;
+      font-size: 18px;
+      font-weight: 0;
+      margin: 0 0 0 0;
+   }
+
+   #go-index .experienceZone .exz-videoBlock .exz-container h3 {
+      font-size: 16px;
+      font-weight: 0;
+      margin: 0 0 0 0;
+      display: block;
+      text-overflow: clip;
+      overflow: hidden;
+   }
+
+   #go-index .experienceZone .exz-videoBlock .exz-container h3 span {
+      color: #ff9922;
+   }
+
+   #go-index .experienceZone .exz-videoBlock .exz-container p {
+      display: block;
+      height: 76px;
+      font-size: 14px;
+      text-overflow: clip;
+      overflow: hidden;
+
+   }
+
+   #go-index .experienceZone .exz-videoBlock .exz-container button {
+      font-size: 16px;
+      width: 120px;
+      height: 40px;
+      border-radius: 3px;
+      border: 0px none;
+      color: #ffffff;
+      background-color: #F29001;
+      transition: .2s all;
+      margin: 10px 0 0 0;
+      font-family: '微軟正黑體';
+      letter-spacing: 4px;
+   }
+
+   /*影音心得結束*/
+
+}
+
+@media only screen and (max-width:1270px) {
+   #go-index .articleZone .az-col2 {
+      width: 100%;
+      margin: 10px auto 0px;
+   }
+}
+
+@media only screen and (max-width:1100px) {
+   #go-index .az-container {
+      width: 100%;
+
+   }
+
+   #go-index .videoZone {
+
+      width: 100%;
+      height: 300px;
+      background-image: url(../img/video-block-mob.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+   }
 
 
 }
-@media only screen and (max-width:970px){
-/*Swiper RWD模組*/
-/*slider 生效的高度*/
-#go-index .menubanner-slider{
-margin-left:-47vw;
-height: 50vw;
-}
-/*slider外框高ˇ度*/
-#go-index .sliderbox{
-height: 50vw;
-}
-/*內容高度ˇ(圖片)*/
-#go-index .menubanner-slider .banner_img_blk img{
-height: 50vw;
-}
-/*
+
+@media only screen and (max-width:970px) {
+
+   /*Swiper RWD模組*/
+   /*slider 生效的高度*/
+   #go-index .menubanner-slider {
+      margin-left: -47vw;
+      height: 50vw;
+   }
+
+   /*slider外框高ˇ度*/
+   #go-index .sliderbox {
+      height: 50vw;
+   }
+
+   /*內容高度ˇ(圖片)*/
+   #go-index .menubanner-slider .banner_img_blk img {
+      height: 50vw;
+   }
+
+   /*
 #go-index .sliderbox .bx-wrapper img {
 margin-left: -50%;   
 }
 */
 
 }
-@media only screen and (max-width:780px){
-body {
-background: #ffffff;
-}
-#go-index .zones-mob .zones_item{
-padding:9px 0 6px;
-}
-#go-index .zones-mob .zi_top{
-font-size: 20px;
-}
-#go-index .zones-mob .zi_title{
-margin: 6px 0 0 0;
-font-size: 17px;
-}
-#go-index .es-container{
-display: block;
-margin:0 0;
-width:100%;
-}
-#go-index .es-function.dp-mob{
-display:block;
-}
-#go-index .es-function.dp-tab{
-display:none;
-}
-#go-index .es-function.dp-mob{
-margin:0 auto;
-width:100%
-}
-#go-index .es-function.dp-mob img{
-margin:0 auto 15px;
-width:95%
-}
-#go-index .es-container{
-margin:0 auto 25px;
-width:100%;
-}
-#go-index .es-title img{
-margin:10px auto;
-width:160px;
-}
-#go-index .es-function img{
-margin:10px auto 20px;
-width:100%;
-}
-#go-index .videoZone{
-margin:0px 0 0 0;
-width:100%;
-height:300px;
-background-image: url(../img/video-block-mob2.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size:cover;
-}
-#go-index .videoZone .vz-title {
-color: #ffffff;
-text-align: center;
-width:80%;
-margin:0 auto;
-padding:110px 0 0 0 ;
-display:block;
-}
-#go-index .videoZone .vz-title h2{
-font-size: 1px;
-color: #fff3cb;
-letter-spacing:16px;
-margin:0 auto;
-text-align: center;
-display:block;
-}
-#go-index .videoZone .vz-title h1 {
-font-size: 18px;
-font-weight: 600;
-text-indent: 20px;
-letter-spacing:20px;
-color: #ffffff;
-display: block;
-margin:0 auto;
-padding:0;
-}
-#go-index .videoZone .vz-title p{
-font-size: 12px; 
-line-height: 18px;
-margin:10px auto 0 0;
-text-align: center;
-height: 36px;
-text-overflow: clip;
-overflow: hidden;
-}  
-/*手機版影音專區slider設定*/
 
-#go-index   .vz-slider-container{
-margin:-75px auto 10px; 
-height: 410px;
-}
+@media only screen and (max-width:780px) {
+   body {
+      background: #ffffff;
+   }
 
-   
-#go-index  .vzs-videoBlock .vzb-container {
+   #go-index .zones-mob .zones_item {
+      padding: 9px 0 6px;
+   }
 
-background-color: #ffffff;
+   #go-index .zones-mob .zi_top {
+      font-size: 20px;
+   }
 
-}
-#go-index  .vzs-videoBlock .vzb-container h1{
-font-size: 18px;
-padding: 13px 0 0px 0;
-color: #a3907d;
-margin:0 0 0 0;
-}
-#go-index  .vzs-videoBlock .vzb-container span{
-display: block;
-white-space: nowrap;
-overflow: hidden;
-text-overflow: ellipsis;
-margin:4px 0 16px ;
-height: 18px;
-}
-#go-index  .vz-viewMore{
-margin:28px auto 0;
-display:block;
-background-color: #717171;
-color:#ffffff;
-width:140px;
-height:50px;
-letter-spacing: 3px;
-text-indent: 3px;
-box-shadow: 10px 10px 20px rgba(0,0,0, .2);
-transition: all .3s;
-text-align: center;
-}
+   #go-index .zones-mob .zi_title {
+      margin: 6px 0 0 0;
+      font-size: 17px;
+   }
 
-/*文章專區 articleZone 開始*/
-#go-index .articleZone{
-width:100%;
-margin:0px auto 20px ;
-display:block;
-height:auto;
-}
-#go-index .articleZone .az-col2 {
-display:inline-block;
-float:left;
-width: 100%;
-height:550px;
-padding: 0 20px 0 ;
-margin:0;
-box-sizing: border-box;
-clear:both;
-}
-#go-index .articleZone .news{
-width: 100%;
-padding: 10px 0 0 ;
-margin:0;
-height:auto;
-box-sizing: border-box;
-}
-#go-index .articleZone .news .az-title{
-float: left;
-width:100%;
-}
-#go-index .articleZone .news .az-title h1{
-float: left;
-letter-spacing:10px ;
-font-size:20px;
-font-weight: 600;
-margin:10px  0 10px 0;
-}
-#go-index .articleZone .news .az-decoration-string{
-display: inline-block;
-float: left;
-border-bottom: 1px solid #F29001;
-width: 50px;
-height: 1px;
-margin:24px 0px 20px   8px;
-}    
-#go-index .articleZone .news .az-contain{
-width:100%;
-display:inline-block;
-float:left;
-margin:0 0 18px 0;
-}
-#go-index .articleZone .news .az-contain a{
-display:block;
-width:100%;
-float:left;
-margin:0;
-text-overflow:clip;
-}   
-#go-index .articleZone .news .az-contain i{
-display:inline-block;
-float:left;
-padding:3px 0 0 0;
-color:#863f2a;
-width:16px;
-}
-#go-index .articleZone .news .az-contain a h1{
-display:inline-block;
-font-weight: 600;
-width:80%;
-font-size: 15px;
-float:left;
-margin:0;
-color:#e29214;
-}
-#go-index .articleZone .news .az-contain a h2{
-display:inline-block;
-width:95%;
-float:left;
-font-size: 15px;
-height:20px;
-margin:2px 0 0 0;
-padding:0 0 0 18px;
-color:#863f2a;
-overflow: hidden;
-text-overflow:clip;
-}
-#go-index .articleZone .news .az-contain a p{
-display:block;
-float:left;
-font-size: 13px;
-margin:5px 0 0px 0;
-padding:0 0 0 20px;
-line-height:20px;
-height:40px;
-overflow: hidden;
-text-overflow:clip;
-box-sizing: border-box;
-}
-#go-index .articleZone .hotnews{
-padding: 30px 0 0;
-margin:0;
-height:auto;
-}
-#go-index .articleZone .hotnews .az-title{
-font-size:24px;
-font-weight: 600;
-margin:10px  0 20px 0;
-}
-#go-index .articleZone .hotnews .az-contain{
-width:100%;
-display:inline-block;
-float:left;
-margin:0 0 30px 0;
-}
-#go-index .articleZone .hotnews img{
-width:80px;
-height:55px;
-display:inline-block;
-float:left;
-}
-#go-index .articleZone .hotnews .az-contain-block{
-width: calc(90% - 70px);
-display:inline-block;
-float:left;
-margin:0 0 0 15px;
-height:50px;
-}
-#go-index .articleZone .hotnews .az-contain-block h4{
-display:inline-block;
-float:left;
-font-size: 15px;
-height:20px;
-margin:0 0 0 0px;
-text-overflow: clip;
-overflow: hidden;
+   #go-index .es-container {
+      display: block;
+      margin: 0 0;
+      width: 100%;
+   }
 
-}
-#go-index .articleZone .hotnews .az-contain-block p{
-display:inline-block;
-float:left;
-font-size: 13px;
-line-height: 20px;
-margin:5px 0 0 0px;
-text-overflow: clip;
-overflow: hidden;
-height:40px;
-}
-#go-index .articleZone  .az-more{
-width:100%;
-display:inline-block;
-float:left;
-margin:0;
-padding:0 0px 0 0px;
-}
-#go-index .az-more button{
-background-color:#ffffff;
-border:1px solid  rgba( 0,0,0,.5);
-width:100px;
-height:40px;
-display:block;
-float:right;
-transition:.2s all ;
-margin:0px 40px 0 0;
-}
+   #go-index .es-function.dp-mob {
+      display: block;
+   }
 
-/*考試時程 articleZone 結束*/
+   #go-index .es-function.dp-tab {
+      display: none;
+   }
 
-/*學員心得專區 experienceZone 開始*/
+   #go-index .es-function.dp-mob {
+      margin: 0 auto;
+      width: 100%
+   }
 
-#go-index .experienceZone{
-width: 100%;
-float: left;
-display:block;
-margin:-20px 0 50px 0;
-box-sizing: border-box;
-}
+   #go-index .es-function.dp-mob img {
+      margin: 0 auto 15px;
+      width: 95%
+   }
 
-/*
+   #go-index .es-container {
+      margin: 0 auto 25px;
+      width: 100%;
+   }
+
+   #go-index .es-title img {
+      margin: 10px auto;
+      width: 160px;
+   }
+
+   #go-index .es-function img {
+      margin: 10px auto 20px;
+      width: 100%;
+   }
+
+   #go-index .videoZone {
+      width: 100%;
+      height: 300px;
+      background-image: url(../img/video-block-mob2.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+   }
+
+   #go-index .videoZone .vz-title {
+
+      padding: 70px 0 0 0;
+
+   }
+
+   #go-index .videoZone .vz-title .video_zone_subtitle {
+      font-size: 12px;
+      letter-spacing: 16px;
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+   }
+
+   #go-index .videoZone .vz-title .video_zone_title {
+
+      font-weight: 600;
+
+      display: block;
+      margin: 0 auto;
+      padding: 0;
+   }
+
+   #go-index .videoZone .vz-title p {
+      font-size: 12px;
+      line-height: 18px;
+      margin: 10px auto 0 0;
+      text-align: center;
+      height: 36px;
+      text-overflow: clip;
+      overflow: hidden;
+   }
+
+   /*手機版影音專區slider設定*/
+
+   #go-index .vz-slider-container {
+      margin: -75px auto 10px;
+      height: 410px;
+   }
+
+
+   #go-index .vzs-videoBlock .vzb-container {
+
+      background-color: #ffffff;
+
+   }
+
+   #go-index .vzs-videoBlock .vzb-container h1 {
+      font-size: 18px;
+      padding: 13px 0 0px 0;
+      color: #a3907d;
+      margin: 0 0 0 0;
+   }
+
+   #go-index .vzs-videoBlock .vzb-container span {
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin: 4px 0 16px;
+      height: 18px;
+   }
+
+   #go-index .vz-viewMore {
+      margin: 28px auto 0;
+      display: block;
+      background-color: #717171;
+      color: #ffffff;
+      width: 140px;
+      height: 50px;
+      letter-spacing: 3px;
+      text-indent: 3px;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, .2);
+      transition: all .3s;
+      text-align: center;
+   }
+
+   /*文章專區 articleZone 開始*/
+   #go-index .articleZone {
+      width: 100%;
+      margin: 0px auto 20px;
+      display: block;
+      height: auto;
+   }
+
+   #go-index .articleZone .az-col2 {
+      display: inline-block;
+      float: left;
+      width: 100%;
+      height: 550px;
+      padding: 0 20px 0;
+      margin: 0;
+      box-sizing: border-box;
+      clear: both;
+   }
+
+   #go-index .articleZone .news {
+      width: 100%;
+      padding: 10px 0 0;
+      margin: 0;
+      height: auto;
+      box-sizing: border-box;
+   }
+
+   #go-index .articleZone .news .az-title {
+      float: left;
+      width: 100%;
+   }
+
+   #go-index .articleZone .news .az-title h1 {
+      float: left;
+      letter-spacing: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 10px 0 10px 0;
+   }
+
+   #go-index .articleZone .news .az-decoration-string {
+      display: inline-block;
+      float: left;
+      border-bottom: 1px solid #F29001;
+      width: 50px;
+      height: 1px;
+      margin: 24px 0px 20px 8px;
+   }
+
+   #go-index .articleZone .news .az-contain {
+      width: 100%;
+      display: inline-block;
+      float: left;
+      margin: 0 0 18px 0;
+   }
+
+   #go-index .articleZone .news .az-contain a {
+      display: block;
+      width: 100%;
+      float: left;
+      margin: 0;
+      text-overflow: clip;
+   }
+
+   #go-index .articleZone .news .az-contain i {
+      display: inline-block;
+      float: left;
+      padding: 3px 0 0 0;
+      color: #863f2a;
+      width: 16px;
+   }
+
+   #go-index .articleZone .news .az-contain a h1 {
+      display: inline-block;
+      font-weight: 600;
+      width: 80%;
+      font-size: 15px;
+      float: left;
+      margin: 0;
+      color: #e29214;
+   }
+
+   #go-index .articleZone .news .az-contain a h2 {
+      display: inline-block;
+      width: 95%;
+      float: left;
+      font-size: 15px;
+      height: 20px;
+      margin: 2px 0 0 0;
+      padding: 0 0 0 18px;
+      color: #863f2a;
+      overflow: hidden;
+      text-overflow: clip;
+   }
+
+   #go-index .articleZone .news .az-contain a p {
+      display: block;
+      float: left;
+      font-size: 13px;
+      margin: 5px 0 0px 0;
+      padding: 0 0 0 20px;
+      line-height: 20px;
+      height: 40px;
+      overflow: hidden;
+      text-overflow: clip;
+      box-sizing: border-box;
+   }
+
+   #go-index .articleZone .hotnews {
+      padding: 30px 0 0;
+      margin: 0;
+      height: auto;
+   }
+
+   #go-index .articleZone .hotnews .az-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 10px 0 20px 0;
+   }
+
+   #go-index .articleZone .hotnews .az-contain {
+      width: 100%;
+      display: inline-block;
+      float: left;
+      margin: 0 0 30px 0;
+   }
+
+   #go-index .articleZone .hotnews img {
+      width: 80px;
+      height: 55px;
+      display: inline-block;
+      float: left;
+   }
+
+   #go-index .articleZone .hotnews .az-contain-block {
+      width: calc(90% - 70px);
+      display: inline-block;
+      float: left;
+      margin: 0 0 0 15px;
+      height: 50px;
+   }
+
+   #go-index .articleZone .hotnews .az-contain-block h4 {
+      display: inline-block;
+      float: left;
+      font-size: 15px;
+      height: 20px;
+      margin: 0 0 0 0px;
+      text-overflow: clip;
+      overflow: hidden;
+
+   }
+
+   #go-index .articleZone .hotnews .az-contain-block p {
+      display: inline-block;
+      float: left;
+      font-size: 13px;
+      line-height: 20px;
+      margin: 5px 0 0 0px;
+      text-overflow: clip;
+      overflow: hidden;
+      height: 40px;
+   }
+
+   #go-index .articleZone .az-more {
+      width: 100%;
+      display: inline-block;
+      float: left;
+      margin: 0;
+      padding: 0 0px 0 0px;
+   }
+
+   #go-index .az-more button {
+      background-color: #ffffff;
+      border: 1px solid rgba(0, 0, 0, .5);
+      width: 100px;
+      height: 40px;
+      display: block;
+      float: right;
+      transition: .2s all;
+      margin: 0px 40px 0 0;
+   }
+
+   /*考試時程 articleZone 結束*/
+
+   /*學員心得專區 experienceZone 開始*/
+
+   #go-index .experienceZone {
+      width: 100%;
+      float: left;
+      display: block;
+      margin: -20px 0 50px 0;
+      box-sizing: border-box;
+   }
+
+   /*
 #go-index .experienceZone .bx-wrapper img {
 max-width: 260%;
 margin-left: -45%;
@@ -898,340 +824,200 @@ height: auto;
 */
 
 
-#go-index .experienceZone .exz-mask{
-position:absolute;
-background: linear-gradient(-170deg, transparent 40%, #000000 0);
-opacity:.5;
-left:0;
-top:0;
-width:100%;
-height:100%;
-font-size:0px;
-pointer-events: none
-}
-#go-index .experienceZone .exz-videoBlock .exz-container{
-position:absolute;
-margin:10px auto;
-display:block;
-color:#ffffff;
-width:75%;
-left: 0px;
-right: 0;
-top: 45%;
-box-sizing: border-box;
-}
-#go-index .experienceZone .exz-videoBlock .exz-container h1{
-display: block;
-width:100%;
-font-size:20px;
-margin:0 0 5px 0;
-text-overflow: clip;    
-overflow: hidden;
-height:28px;
-}
-#go-index .experienceZone .exz-videoBlock .exz-container h2{
-display: block;
-font-size:13px;
-font-weight: 0;
-margin:0 0 0 0;
-text-overflow: clip;    
-overflow: hidden;
-height:16px;
-}
-#go-index .experienceZone .exz-videoBlock .exz-container h3{
-font-size:14px;
-font-weight: 0;
-margin:0 0 0 0;
-display: block;
-text-overflow: clip;    
-overflow: hidden;
-height:18px;
-}
-#go-index .experienceZone .exz-videoBlock .exz-container h3 span{
-color:#ff9922;
-}
-#go-index .experienceZone .exz-videoBlock .exz-container p{
-margin:2px 0;
-display: block;
-height:35px;
-font-size:12px;
-text-overflow: clip;    
-overflow: hidden;
-}
-#go-index .experienceZone .exz-videoBlock .exz-container button{
-font-size:13px;
-width:100px;
-height:30px;
-float:left;
-}
-#go-index .experienceZone .exz-videoBlock .exz-container button:hover{
-cursor:pointer;
-border: 0px none ;
-color:#863f2a;
-background-color: #ffffff;
-}
-/*學員心得專區 experienceZone 結束*/
+   #go-index .experienceZone .exz-mask {
+      position: absolute;
+      background: linear-gradient(-170deg, transparent 40%, #000000 0);
+      opacity: .5;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      font-size: 0px;
+      pointer-events: none
+   }
 
-/*footer區塊樣式*/
-#go-footer {
-z-index: 10;
-margin:40px 0 0 0;
-padding:0;
-width:100%;
-overflow: hidden;
-background-color: #ffffff;
+   #go-index .experienceZone .exz-videoBlock .exz-container {
+      position: absolute;
+      margin: 10px auto;
+      display: block;
+      color: #ffffff;
+      width: 75%;
+      left: 0px;
+      right: 0;
+      top: 45%;
+      box-sizing: border-box;
+   }
 
-}
-#go-footer  hr{
-width: 100%;
-height:1.5px;
-border: 0px solid ;
-margin:30px 0 30px 0;
-background-color: rgba(199, 199, 199, 0.5);
-}
-#go-footer .ft-left.dp-tab{
-display:none;
-}
-/*footer左側圖片*/
-#go-footer .ft-left.dp-mob{
-box-sizing: border-box;
-display:inline-block;
-float:right;
-margin:10px 0 0 0 ;
-width:100%;
-}
-/*footer右側文字區塊*/
-#go-footer .ft-left.dp-mob .cols{
+   #go-index .experienceZone .exz-videoBlock .exz-container h1 {
+      display: block;
+      width: 100%;
+      font-size: 20px;
+      margin: 0 0 5px 0;
+      text-overflow: clip;
+      overflow: hidden;
+      height: 28px;
+   }
 
-margin:15px 0 0 0;
-float: left;
-display: inline-block;
-}
-#go-footer .ft-left.dp-mob p{
-margin:6px 0 0 0;
+   #go-index .experienceZone .exz-videoBlock .exz-container h2 {
+      display: block;
+      font-size: 13px;
+      font-weight: 0;
+      margin: 0 0 0 0;
+      text-overflow: clip;
+      overflow: hidden;
+      height: 16px;
+   }
 
+   #go-index .experienceZone .exz-videoBlock .exz-container h3 {
+      font-size: 14px;
+      font-weight: 0;
+      margin: 0 0 0 0;
+      display: block;
+      text-overflow: clip;
+      overflow: hidden;
+      height: 18px;
+   }
 
-}
-#go-footer .ft-left.dp-mob a {
-color:#898989;
-transition:  .3s all ;
-}
-#go-footer .ft-left.dp-mob .cols h1{
-display:inline-block;
-font-weight: bold;
-margin:0 0 0px 0;
-width: 100%;
-}
+   #go-index .experienceZone .exz-videoBlock .exz-container h3 span {
+      color: #ff9922;
+   }
 
-#go-footer .ft-left .foot_logo{
-box-sizing: border-box;
-display:inline-block;
-float:left;
-margin:0 0 20px 0 ;
-width: 200px;
-}
-#go-footer .ft-left  .foot_qr{
-margin: 8px 0 0 10px;
-float: left;
-width:54px;
-}
+   #go-index .experienceZone .exz-videoBlock .exz-container p {
+      margin: 2px 0;
+      display: block;
+      height: 35px;
+      font-size: 12px;
+      text-overflow: clip;
+      overflow: hidden;
+   }
 
-/*footer右側文字區塊*/
-#go-footer .ft-right{
-float:left;
-width:100%;
-max-width:1000px;
-display:inline-block;
-margin:0px auto;
-box-sizing: border-box;
-}
+   #go-index .experienceZone .exz-videoBlock .exz-container button {
+      font-size: 13px;
+      width: 100px;
+      height: 30px;
+      float: left;
+   }
+   #go-index .experienceZone .exz-videoBlock .exz-container button:hover {
+      cursor: pointer;
+      border: 0px none;
+      color: #863f2a;
+      background-color: #ffffff;
+   }
+   #go-index .sliderbox {
+      display: block;
+   }
 
-#go-footer .ft-right .cols{
-display:inline-block;
-width:32%;
-box-sizing: border-box;
-}
-
-#go-footer .ft-right p{
-margin:1px 0 0 0;
-letter-spacing: 2.5px;
-}
-#go-footer .ft-right a {
-color:#5d5d5d;
-transition: .3s all ;
-}
-#go-footer .ft-right .cols h1{
-display:block;
-font-weight: bold;
-margin:0 0 6px 0;
-letter-spacing: 2px;
+   #go-index .bx-viewport {
+      padding-bottom: 15px;
+   }
 }
 
 
 
-/*footer底部文字區塊*/
-#go-footer .ft-bottom{
-width:100%;
-height:70px;
-float: left;
-}
-#go-footer .ft-bottom .cols {
-line-height: 40px;
-float: left;
-color:#000000;
-display:inline-block;
-width:31%;
-}
-#go-footer .ft-bottom .cols i{
-line-height: 20px;
-margin:0 0  0 15px ;
-padding: 0;
-}
-#go-footer .ft-bottom .cols p{
-color:#676767;
-display: inline-block;
-width: 100%;
-margin:0;
-line-height: 20px
-}
-#go-footer .ft-bottom .cols img{
-width:28%;
-line-height: 20px;
-margin: 10px 0 0 0;
-float:right ;
+@media only screen and (max-width:580px) {
+   #go-index .experienceZone .evb_img {
+      margin-left: -50%;
+      height: 80vw;
+   }
 }
 
-/* 以下共用 */
-#go-footer  a:hover{
-color:#191919;
-}    
-#go-index .sliderbox{
-display:block;
-}
-#go-index .bx-viewport{
-padding-bottom:15px;
-}
-} 
-@media only screen and (max-width:691px){
-#go-footer .containBox{
-margin:0px auto;
-width:95%;
-}
-}
-@media only screen and (max-width:580px){
-#go-footer .ft-left.dp-mob .cols{
-width: 100%;
-}
-
-#go-index .experienceZone .evb_img{
-margin-left: -50%;
-height: 80vw;
-} 
-}
 @media only screen and (max-width:550px) {
-#go-index .es-loader{
-width:100%;
+   #go-index .es-loader {
+      width: 100%;
+   }
+
+   #go-index .es-loader .swiper-button-prev {
+      padding: 0 10px;
+      outline: none;
+   }
+
+   #go-index .es-loader .swiper-button-next {
+      padding: 0 10px;
+      outline: none;
+   }
+
+   #go-index .experienceZone {
+      width: 100%;
+      float: left;
+      display: block;
+      margin: -40px 0 50px 0;
+   }
+
+   #go-index .experienceZone .bx-wrapper p:nth-child(4) {
+      display: none;
+   }
 }
-#go-index .es-loader  .swiper-button-prev{
-padding:  0 10px;
-outline: none;
-}
-#go-index .es-loader  .swiper-button-next{
-padding:  0 10px;
-outline: none;
-}
-#go-index .experienceZone{
-width: 100%;
-float: left;
-display:block;
-margin:-40px 0 50px 0;
-}
-#go-index .experienceZone .bx-wrapper p:nth-child(4){
-display: none;
-}
-}
+
+
 @media only screen and (max-width:450px) {
-#go-index .zones-mob .zones_item{
-padding:8px 0 4px;
+   #go-index .zones-mob .zones_item {
+      padding: 8px 0 4px;
+   }
+
+   #go-index .zones-mob .zi_top {
+      font-size: 16px;
+   }
+
+   #go-index .zones-mob .zi_title {
+      margin: 4px 0 0 0;
+      font-size: 14px;
+   }
+
+   #go-header .sidenav {
+      padding-top: 15px;
+   }
+
+   #go-header .sidenav a {
+      font-size: 18px;
+   }
+
+   #go-index .az-container {
+      width: 100%;
+      margin: 0px auto 0px;
+   }
+
+   #go-index .articleZone .az-col2 {
+      display: inline-block;
+      float: left;
+      width: 100%;
+      height: 550px;
+      padding: 0 10px 0;
+      box-sizing: border-box;
+      clear: both;
+   }
+
 }
-#go-index .zones-mob .zi_top{
-font-size: 16px;
-}
-#go-index .zones-mob .zi_title{
-margin: 4px 0 0 0;
-font-size: 14px;
-}
-#go-header .sidenav {
-padding-top: 15px;
-}
-#go-header .sidenav a {
-font-size: 18px;
-}
-#go-index .az-container{
-width:100%;
-margin:0px auto 0px;
-}
-#go-index .articleZone .az-col2 {
-display:inline-block;
-float:left;
-width: 100%;
-height:550px;
-padding: 0 10px 0 ;
-box-sizing: border-box;
-clear:both;
-}
-#go-footer .ft-left.dp-mob .cols{
-margin:15px 0 0 0;
-float: left;
-display: inline-block;
-}
-#go-footer .ft-left.dp-mob img{
-width:100%;
-margin:20px 80p;
-}
-#go-footer .ft-right .cols span{
-text-align: center;
-}
-#go-footer .ft-right a {
-letter-spacing: 0px;
-}
-}
+
 @media only screen and (max-width:390px) {
 
 
-#go-index .vz-slider-container .bx-wrapper .bx-prev {
-left: 0px;
-top: 43%;
-}
-#go-index .vz-slider-container .bx-wrapper .bx-next {
-right:0px;
-top: 43%;
-}
-#go-index .articleZone .news{
-padding: 0px;
-margin:0;
-height:auto;
-box-sizing: border-box;
+   #go-index .vz-slider-container .bx-wrapper .bx-prev {
+      left: 0px;
+      top: 43%;
+   }
+
+   #go-index .vz-slider-container .bx-wrapper .bx-next {
+      right: 0px;
+      top: 43%;
+   }
+
+   #go-index .articleZone .news {
+      padding: 0px;
+      margin: 0;
+      height: auto;
+      box-sizing: border-box;
+   }
+
+   #go-index .articleZone .hotnews {
+      padding: 0px;
+      margin: 0;
+      height: auto;
+      box-sizing: border-box;
+   }
 }
 
-#go-index .articleZone .hotnews{
-padding: 0px;
-margin:0;
-height:auto;
-box-sizing: border-box;
-}
-}
 @media only screen and (max-width:360px) {
-#go-header  .member-element.onlineService.dp-mob{
-display: none;
+   #go-header .member {
+      width: auto;
+   }
 }
-#go-header .member {
-width:auto;
-}
-}
-
-
-
-
-
-

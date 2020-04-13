@@ -1,13 +1,7 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
-@import url("https://fonts.googleapis.com/earlyaccess/cwtexming.css");
-@import url("https://fonts.googleapis.com/earlyaccess/cwtexkai.css");
-@import url("https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css");
-@import url("https://fonts.googleapis.com/earlyaccess/cwtexyen.css");
-@import url("https://fonts.googleapis.com/earlyaccess/cwtexyen.css");
-@import url("https://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro");
+
  .cwtexyen{
-    font-family: 'Source Sans Pro' , 'Muli'  ,'cwTeXYen','微軟正黑體','Arial', '新細明體';
+    font-family:  sans-serif ,'微軟正黑體','Arial', '新細明體';
 }
 .breadcrumbs.new{
     font-size: 14px;
