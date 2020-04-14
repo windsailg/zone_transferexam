@@ -21,11 +21,7 @@ var student_avatar_slider = new Swiper('.student-avatar-slider', {
 		loadPrevNext: true,
 		loadPrevNextAmount: 1//可視block的預載入數量,
 		},
-	autoplay: {
-		delay: 6000,
-		stopOnLastSlide: false,
-		disableOnInteraction: true,
-	},
+	autoplay: flase,
 	controller: {
 		control: student_experience_slider,
 		inverse: false,

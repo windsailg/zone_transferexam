@@ -216,6 +216,9 @@ html{
             &.type_banner{
                width: 100%;
                padding: 0px 35px;
+               @include MCW(861px) {
+                  padding: 0 10px;
+               }
             }
             &.type_full{
                @include block-float;
@@ -346,7 +349,11 @@ html{
             max-height: 250px;
             overflow: hidden;
             position: relative;
-
+            @include MCW(861px) {
+               img{
+                  max-width: 100%!important;
+               }
+            }
             .swiper-pagination-bullet{
                width:10px;
                height:10px;

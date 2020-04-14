@@ -218,6 +218,12 @@ html {
   padding: 0px 35px;
 }
 
+@media all and (max-width: 861px) {
+  #examList .zone .container.type_banner {
+    padding: 0 10px;
+  }
+}
+
 #examList .zone .container.type_full {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -399,6 +405,12 @@ html {
   max-height: 250px;
   overflow: hidden;
   position: relative;
+}
+
+@media all and (max-width: 861px) {
+  #examList .banner_block .imagine img {
+    max-width: 100% !important;
+  }
 }
 
 #examList .banner_block .imagine .swiper-pagination-bullet {
