@@ -41,14 +41,7 @@ $cgo_gradute_article_Red:#c11;
          min-height: 240px;
       }
    }
-   &.type_cover{
-      @include fxc;
-      width: 100%;
-      top:-42px;
-      position: relative;
-      z-index: 1;
-      overflow: visible;
-   }
+
    .container{
       @include b;
       overflow: hidden;;

@@ -104,6 +104,9 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       position: relative;
       z-index: 1;
       overflow: visible;
+      @include MCW(601px) {
+         top: -25px;
+      }
    }
    .container{
       @include b;
@@ -171,12 +174,12 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       @include fxfs;
       float: left;
       width:100%;
-      max-width:360px;
+      max-width:500px;
       padding: 10px 0 18px;
       overflow:hidden;;
       flex-wrap: nowrap;
       @include MCW(601px) {
-         padding: 5px 0 ;
+         padding: 5px 0;
          overflow: visible;
       }
       .subject_item{
@@ -232,11 +235,12 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
             @include ibl;
             width:100%;
             text-align: center;
-            font-size:15px;;
             margin: 0;
             max-height: 20px;
             font-weight: bold;
             line-height: 15px;;
+
+
          }
       }
       &.type_mob{
@@ -268,17 +272,20 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                @include ibl;
                width:calc(100% - 30px);
                text-align: center;
-               font-size:17px;;
+               font-size:15px;;
                margin: 0;
                max-height: 22px;
                letter-spacing: -1px;
+               @include MCW(601px) {
+                  font-size: .8em;
+               }
             }
          }
       }
       &.type_fixed{
          @include fxfs;
          float: left;
-         width:calc(100% - 450px);
+         width:calc(100% - 520px);
          max-width:unset;
          @include MCW(601px) {
             display: none;
@@ -440,9 +447,11 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
             @include fxc;
             width: 100%;
             > .list{
+               width: 100%;
+               max-width: 240px;
                list-style: none;
                @include fxa;
-               min-height: 160px;
+               min-height: 80px;
                margin: 0;
                padding: 0;
                > .item{

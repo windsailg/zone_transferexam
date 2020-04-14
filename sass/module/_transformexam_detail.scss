@@ -72,225 +72,9 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
    }
 }
 
-//Top Menu Block
+//detail頁內容樣式
 #examList{
 
-   .side_info_block{
-      @include fxc;
-      width: 100%;
-      max-width: 280px;
-      @include MCW(1301px){
-         max-width: unset;
-      }
-      > .info_container{
-         @include fxc;
-         > .news{
-            @include fxc;
-            width: 100%;
-            > .list{
-               list-style: none;
-               @include fxa;
-               min-height: 160px;
-               margin: 0;
-               padding: 0;
-               > .item{
-                  @include fxe;
-                  width:100%;
-                  position: relative;
-                  a{
-                     @include fxe;
-                     @include hover;
-                     text-align: center;
-                     width:100%;
-                     font-size: 20px;
-                     font-weight: bold;
-                     color:#888;
-                     padding:0 0 0 25px;
-                  }
-                  &:not(:last-child)::after{
-                     content: '';
-                     @include ibl;
-                     position: absolute;
-                     background-color: #ddd;
-                     width:90%;
-                     height: 1px;
-                     @include arl;
-                     bottom: -15px;
-                  }
-                  .num{
-                     @include ibl;
-                     padding:1px 6px ;
-                     background-color:$cgo_faderGreen;
-                     border-radius: 3px;
-                     color: #fff;
-                     font-size: 12px;
-                  }
-               }
-            }
-         }
-         > .services{
-            @include fxc;
-            width: 100%;
-            > .list{
-               list-style: none;
-               @include fxa;
-               min-height: 160px;
-               margin: 0;
-               padding: 0;
-               > .item{
-                  @include fxe;
-                  width:100%;
-                  position: relative;
-                  a{
-                     @include fxb;
-                     text-align: center;
-                     width:100%;
-                     font-size: 20px;
-                     font-weight: bold;
-                     color:#888;
-                     padding:10px 34px;
-                     @include bs(3px , 3px , 12px, #eee);
-                     margin:6px 0;
-                     @include hos2();
-                     @include tst;
-                  }
-                  &:nth-child(1){
-                     .icon{
-                        background-color: $cgo_graduate_link_fadeGreen;
-                     }
-                  }
-                  &:nth-child(2){
-                     .icon{
-                        background-color: $cgo_graduate_link_fadeAlmond;
-                     }
-                  }
-                  &:nth-child(3){
-                     .icon{
-                        background-color: $cgo_graduate_link_Orange;
-                     }
-                  }
-                  &:nth-child(4){
-                     .icon{
-                        background-color: $cgo_graduate_link_Pink;
-                     }
-                  }
-                  .icon{
-                     @include fxc;
-                     padding: 0px;
-                     background-color: $cgo_faderGreen;
-                     width: 25px;
-                     height: 25px;
-
-                     border-radius: 3px;
-                     i{
-                        color:#fff;
-                        font-size: 13px;
-                     }
-                  }
-                  .title_box{
-                     @include fxc;
-                     width: 100%;
-                     max-width:85px;;
-                     text-align: left;
-                     overflow: hidden;
-                     > .item{
-                        @include ibl;
-                        width: 100%;
-                        letter-spacing: 0;
-                     }
-                     > .title{
-                        color:$cgo_textBlue;
-                        font-size: 17px;
-                     }
-                     > .subtitle{
-                        font-size: 13px;
-                        color:#ccc;
-                        
-                     }
-                  }
-                  .arrow{
-                     @include fxc;
-                     padding: 3px;
-                     background: #eee;
-                     border-radius: 50px;
-                     width: 21px;
-                     height: 21px;
-                     i{
-                        font-size: 12px;
-                     }
-                  }
-               }
-            }
-         }
-         > .links{
-            > .list{
-               > .item{
-                  @include ibl;
-                  width:100%;
-                  position: relative;
-                  &:nth-child(1){
-                     .icon{
-                        color: $cgo_graduate_link_minor_Brown;
-                     }
-                  }
-                  &:nth-child(2){
-                     .icon{
-                        color: $cgo_graduate_link_minor_Orange;
-                     }
-                  }
-                  &:nth-child(3){
-                     .icon{
-                        color: $cgo_graduate_link_minor_fadeBrown;
-                     }
-                  }
-                  &:nth-child(4){
-                     .icon{
-                        color: $cgo_graduate_link_minor_fadeAlmond;
-                     }
-                  }
-                  a{
-                     @include fxfs;
-                     @include hover;
-                     padding: 4px 0 4px 27px;
-                  }
-                  &:not(:last-child)::after{
-                     content: '';
-                     @include ibl;
-                     position: absolute;
-                     border:1px dashed #866059;
-                     border-width: 0 0 1px 0;
-                     width:90%;
-                     height: 1px;
-                     @include arl;
-                     bottom: 0px;
-                     opacity: .3;
-                  }
-                  .icon{
-                     @include ibl;
-                     padding:10px;
-                     i{
-                        padding: 0 10px 0 0;
-                     }
-                  }
-                  .title{
-                     font-size: 18px;
-                     letter-spacing: 0;
-
-                  }
-               }
-            }
-
-         }
-         > .item{
-            margin: 0 0 20px;
-            ul{
-               list-style: none;
-               margin: 0;
-               padding: 0;
-            }
-         }
-      }
-   }
 
    .main_content_block{
       @include fxc;
@@ -361,7 +145,117 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
 
    }
 
+   .subject_detail_container{
+      .recommand__title{
+         font-size: 1.4em;
+         font-weight: 600;
+      }
+      .recommand__feature__list{
+         @include fxfsw(270px);
+         margin: 10px 0;
+      }
+      .recommand__feature__list__item{
+         @include bl;
+      }
+      .recommand__description__box{
+         @include fxfsw();
+         font-size: 1.2em;
+         margin: 15px 0 ;
+      }
+      .recommand__block{
+         float: left;
+      }
+      .course-name {
+         color: #00ab6b;
+         font-size: 22px;
+         margin-bottom: 30px;
+         font-weight: bold;
+      }
+
+      .course-li {
+         text-align: center;
+         color: #555555;
+         width: 213px;
+         float: left;
+         background-color: rgba(0, 0, 0, 0.1);
+         height: 105px;
+         margin: 5px;
+         font-size: 18px;
+         position: relative;
+         border-radius: 5px;
+
+         a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+         }
+
+         span {
+            padding-top: 19%;
+            text-align: center;
+            width: 100%;
+            bottom: 7px;
+            display: inline-block;
+            line-height: 26px;
+            transition: 0.1s;
+         }
+
+         a:hover {
+            span {
+               padding-top: 15%;
+            }
+
+            color: white;
+            background-color: #00ab6b;
+
+            .course-icon {
+               color: white;
+            }
+
+            &:after {
+               content: '';
+               font-size: 20px;
+               position: relative;
+               text-align: center;
+            }
+         }
+      }
+
+      .course-icon {
+         color: rgba(0, 0, 0, 0);
+      }
+
+      .course-container {
+         width: 100%;
+         margin-bottom: 10px;
+         overflow: hidden;
+         // border-bottom: 1px solid #00ab6b;
+         padding-bottom: 25px;
+      }
+
+      h3.course-title {
+         // border-bottom: 1px solid #00ab6b;
+         margin-bottom: 25px;
+         padding: 0;
+
+         div {
+            padding-left: 15px;
+            clip-path: polygon(0 0, 155px 0, 185px 100%, 0% 100%);
+            background-color: #00ab6b;
+            font-size: 20px;
+            color: white;
+            padding-top: 2px;
+            padding-bottom: 2px;
+         }
+      }
+   }
+
+
+
 }
+
+
 
 #examList .exam-show .title {
     @include MCW(581px){
